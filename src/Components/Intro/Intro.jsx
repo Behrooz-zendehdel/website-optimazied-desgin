@@ -5,7 +5,6 @@ import Twitter from "../../assets/logo-twitter.png";
 import Github from "../../assets/logo-github.png";
 import vector1 from "../../assets/shape-1.png";
 import vector2 from "../../assets/shape-3.png";
-import boy from "../../assets/main-image.png";
 import boy2 from "../../assets/main-3.png";
 import reactlogo from "../../assets/logo-react.png";
 import jslogo from "../../assets/logo-js.png";
@@ -43,8 +42,16 @@ const Intro = () => {
         <img src={vector1} alt="" />
         <img src={vector2} alt="" />
         <img src={boy2} alt="" />
-        <div>
-          <FloatinfDiv />
+        <div style={{ top: "-10px", left: "30rem" }}>
+          <FloatinfDiv image={reactlogo} text1="React" text2="developer" />
+        </div>
+        <div
+          style={{
+            top: "10px",
+            righ: "-30rem",
+          }}
+        >
+          <FloatinfDiv image={jslogo} text1="Java" text2="script" />
         </div>
       </div>
     </div>
