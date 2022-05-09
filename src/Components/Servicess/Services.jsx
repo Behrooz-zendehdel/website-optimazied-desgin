@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
 import emoji1 from "../../assets/emoji-1.png";
+import emoji2 from "../../assets/emoji-2.png";
 import Card from "../Card/Card";
 const Services = () => {
   return (
@@ -17,13 +18,21 @@ const Services = () => {
         <div className="blur s-blur1" style={{ background: "#abf1ff94" }}></div>
       </div>
       {/* right side */}
-      <div className="cards">
-          {/* card component */}
+      <div className="cards" style={{ left: "40rem" }}>
+        {/* card component */}
         <div>
           <Card
             emoji={emoji1}
             heading={"Design"}
-            detail={"Figma,Sketch,Photoshop,Adobe,...."}
+            detail={"Figma,Sketch, Photoshop,Adobe"}
+          />
+        </div>
+        {/* second card */}
+        <div style={{ left: "-20rem", top: "10rem" }}>
+          <Card
+            emoji={emoji2}
+            heading={"Developer"}
+            detail={"Html,Css,Javascript,React"}
           />
         </div>
       </div>
