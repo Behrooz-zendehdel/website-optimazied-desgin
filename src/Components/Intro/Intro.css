@@ -41,6 +41,8 @@
   margin-top: 1rem;
   display: flex;
   gap: 0.5rem;
+  width: 100px;
+  height: 100px;
 }
 
 .i-icons img {
@@ -58,4 +60,24 @@
 }
 .i-right {
   flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(1.5);
+  left: 10rem;
+  top: -10%;
+}
+.i-right > :nth-child(2) {
+  top: 12%;
+  transform: scale(2);
+  left: 36%;
+}
+.i-right > :nth-child(3) {
+  transform: scale(0.69);
+  left: 30%;
+  bottom: 35%;
 }

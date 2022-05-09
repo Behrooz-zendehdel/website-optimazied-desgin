@@ -3,6 +3,14 @@ import "./Intro.css";
 import Instagram from "../../assets/logo-instagram.png";
 import Twitter from "../../assets/logo-twitter.png";
 import Github from "../../assets/logo-github.png";
+import vector1 from "../../assets/shape-1.png";
+import vector2 from "../../assets/shape-3.png";
+import boy from "../../assets/main-image.png";
+import boy2 from "../../assets/main-3.png";
+import reactlogo from "../../assets/logo-react.png";
+import jslogo from "../../assets/logo-js.png";
+import vsclogo from "../../assets/logo-vsc.png";
+import FloatinfDiv from "../FloatinfDiv/FloatinfDiv";
 
 const Intro = () => {
   return (
@@ -31,7 +39,14 @@ const Intro = () => {
         </div>
       </div>
       {/* right side */}
-      <div className="i-right">right side</div>
+      <div className="i-right">
+        <img src={vector1} alt="" />
+        <img src={vector2} alt="" />
+        <img src={boy2} alt="" />
+        <div>
+          <FloatinfDiv />
+        </div>
+      </div>
     </div>
   );
 };
