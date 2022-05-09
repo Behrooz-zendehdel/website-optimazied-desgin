@@ -65,7 +65,9 @@
 .i-right > * {
   position: absolute;
   z-index: 1;
+  object-fit: cover;
 }
+
 .i-right > :nth-child(1) {
   transform: scale(1.5);
   left: 10rem;

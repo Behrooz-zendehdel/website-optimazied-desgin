@@ -6,7 +6,7 @@
   background: var(--yellow);
   box-shadow: var(--boxShadow);
   border-radius: 17px;
-  padding: 0px 28px 0px 0px;
+  padding: 0px 28px 0px 28px;
   height: 4.5rem;
 }
 
