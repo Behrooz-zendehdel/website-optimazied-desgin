@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
-// import emoji1 from "../../assets/emoji-1";
+import emoji1 from "../../assets/emoji-1.png";
+import Card from "../Card/Card";
 const Services = () => {
   return (
     <div className="services">
@@ -17,7 +18,14 @@ const Services = () => {
       </div>
       {/* right side */}
       <div className="cards">
-          right side
+          {/* card component */}
+        <div>
+          <Card
+            emoji={emoji1}
+            heading={"Design"}
+            detail={"Figma,Sketch,Photoshop,Adobe,...."}
+          />
+        </div>
       </div>
     </div>
   );
