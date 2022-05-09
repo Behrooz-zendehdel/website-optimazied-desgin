@@ -7,9 +7,9 @@ import vector1 from "../../assets/shape-1.png";
 import vector2 from "../../assets/shape-3.png";
 import boy2 from "../../assets/main-3.png";
 import reactlogo from "../../assets/logo-react.png";
-import jslogo from "../../assets/logo-js.png";
 import vsclogo from "../../assets/logo-vsc.png";
 import FloatinfDiv from "../FloatinfDiv/FloatinfDiv";
+import emoji1 from "../../assets/emoji-4.png";
 
 const Intro = () => {
   return (
@@ -42,17 +42,31 @@ const Intro = () => {
         <img src={vector1} alt="" />
         <img src={vector2} alt="" />
         <img src={boy2} alt="" />
+        <img src={emoji1} alt="" />
+
         <div style={{ top: "-10px", left: "30rem" }}>
           <FloatinfDiv image={reactlogo} text1="React" text2="developer" />
         </div>
         <div
           style={{
-            top: "10px",
-            righ: "-30rem",
+            top: "15rem",
+            right: "30rem",
           }}
         >
-          <FloatinfDiv image={jslogo} text1="Java" text2="script" />
+          <FloatinfDiv image={vsclogo} text1="Visoual" text2="studio" />
         </div>
+        {/* blur divs */}
+        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div
+          className="blur"
+          style={{
+            background: "#c1f5ff",
+            top: "17rem",
+            width: "21rem",
+            heigh: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
       </div>
     </div>
   );

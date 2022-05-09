@@ -13,7 +13,7 @@
 .floatingdiv > img {
   width: 100px;
   object-fit: cover;
-  transform: scale(1.5);
+  transform: scale(0.89);
 }
 
 .floatingdiv > span {
