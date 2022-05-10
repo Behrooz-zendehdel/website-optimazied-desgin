@@ -9,7 +9,6 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      <Card />
     </div>
   );
 }

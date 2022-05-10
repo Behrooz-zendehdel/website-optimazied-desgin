@@ -4,6 +4,7 @@ import emoji1 from "../../assets/emoji-1.png";
 import imoji3 from "../../assets/emoji-3.png";
 import imoji4 from "../../assets/emoji-4.png";
 import Card from "../Card/Card";
+import resume from "../../assets/resume.pdf";
 const Services = () => {
   return (
     <div className="services">
@@ -15,11 +16,14 @@ const Services = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
           Sapiente, sint.
         </span>
-        <button className="button s-button">Download CV</button>
+        <a href={resume} download>
+          <button className="button s-button">Download CV</button>
+        </a>
+
         <div className="blur s-blur1" style={{ background: "#abf1ff94" }}></div>
       </div>
       {/* right side */}
-      <div className="cards" style={{ left: "40rem" }}>
+      <div className="cards" style={{ left: "30rem" }}>
         {/* card component */}
         <div>
           <Card
