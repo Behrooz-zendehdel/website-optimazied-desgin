@@ -16,10 +16,11 @@ const Services = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
           Sapiente, sint.
         </span>
+        {/* download file resume */}
         <a href={resume} download>
           <button className="button s-button">Download CV</button>
         </a>
-
+    {/* blur effect */}
         <div className="blur s-blur1" style={{ background: "#abf1ff94" }}></div>
       </div>
       {/* right side */}
