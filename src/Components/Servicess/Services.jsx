@@ -1,7 +1,8 @@
 import React from "react";
 import "./Services.css";
 import emoji1 from "../../assets/emoji-1.png";
-import emoji2 from "../../assets/emoji-2.png";
+import imoji3 from "../../assets/emoji-3.png";
+import imoji4 from "../../assets/emoji-4.png";
 import Card from "../Card/Card";
 const Services = () => {
   return (
@@ -30,9 +31,16 @@ const Services = () => {
         {/* second card */}
         <div style={{ left: "-20rem", top: "10rem" }}>
           <Card
-            emoji={emoji2}
+            emoji={imoji3}
             heading={"Developer"}
             detail={"Html,Css,Javascript,React"}
+          />
+        </div>
+        <div style={{ left: "-3rem", top: "20rem" }}>
+          <Card
+            emoji={imoji4}
+            heading={"backend"}
+            detail={"laravel,payton,golang,php"}
           />
         </div>
       </div>
